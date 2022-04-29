@@ -47,7 +47,7 @@ Ligne5=(' '.join(ligne5))
 ligne6=tableau[-18:-15]
 Ligne6=(' '.join(ligne6))
 
-os.remove(pathApp+'/templates/Donneex.txt')
+os.remove(pathApp+'/templates/Donnees.txt')
 
 @app.route('/rapport')
 def home():
